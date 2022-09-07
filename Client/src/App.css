@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300;500&display=swap");
+
+* {
+  font-family: "Sarabun", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 4vh;
+}
+
+.bg-nav {
+  background-color: #fff;
+  padding: auto;
+}
+
+.text-sp {
+  color: rgb(58, 58, 58);
+}
+
+.text-sp:hover {
+  color: rgb(134, 134, 134);
+}
+
+.card-body {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+
+  background-clip: content-box;
+}
+
+.text {
+  color: #ffff;
+}
+
+.button {
+  background-color: #5db878;
+  border: none;
+}
+
+.tab {
+  background-color: rgb(238, 238, 238);
+}
+
+.tab1 {
+  background-color: transparent;
+}
+
+.button1 {
+  background-color: #ee3030;
+  border: none;
+}
+
+.button2 {
+  background-color: #757272;
+  border: none;
+}
+
+.excel-box {
+  margin-left: auto;
+  width: "130px";
+  height: "35px";
+  min-width: "150px";
+}
+.excel-box1 {
+  margin-left: 15px;
+  width: "50px";
+  height: "40px";
+  min-width: "50px";
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.background-confirm {
+  background-color: #28a05a;
+}
+
+.backgroung-cancel {
+  background-color: #d83939;
+}
+.button-item {
+  height: 25px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.text-color {
+  color: #d83939;
+}
+
+.badge-status {
+  border-radius: "10px";
+  height: "25px";
+}
+
+.blink-status {
+  animation: blink infinite 2s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.uploadimage {
+  height: "10px";
+  width: "10px";
+  border-radius: "2px";
+}
+.background-correct {
+  background-color: #757272;
+}
+.f {
+  background-color: #e1dcd9;
+}
+
+.tab-text {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.text1 {
+  font-size: 14px;
+}
+.bu {
+  height: 40px;
+  width: 270px;
+  display: flex;
+  padding-right: 20px;
+  margin-left: auto;
+  min-width: auto;
+}
+.bupage {
+  height: 30px;
+  width: "70px";
+  display: flex;
+  padding-right: 20px;
+}
